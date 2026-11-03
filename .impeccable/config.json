@@ -1,0 +1,26 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-02T04:39:22.863Z",
+        "reason": "Claude + finish reviewer: editorial hairline rules on .sit/.promise/.facts rows, no boxed container; 18-44px vertical padding reads correctly in captures"
+      },
+      {
+        "rule": "flat-type-hierarchy",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-02T04:39:22.884Z",
+        "reason": "Claude: display h1/h2 are 4.25-6rem and h3 1.5-2.1rem over 1.0625rem body (>1.4x steps); finding contradicts rendered captures"
+      }
+    ]
+  }
+}

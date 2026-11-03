@@ -1,0 +1,73 @@
+{
+  "title": "Choose the visual world — MK Auto Body",
+  "question": "The roll assigned The Masked Booth. Keep it, take an alternate, or re-roll.",
+  "options": [
+    {
+      "id": "assigned",
+      "kind": "assigned",
+      "label": "The Masked Booth",
+      "kicker": "THE ROLL",
+      "lineage": "A car masked in white paper and cut tape inside MK's own paint booth",
+      "thesis": "The page is a car in the booth: masked, taped on the logo's shear angle, then peeled to the finish.",
+      "palette": ["#f6f5f1", "#0b0b0b", "#d40a0a", "#8a8a86"],
+      "materials": ["masking paper", "razor-cut tape edges", "wet basecoat red", "booth-light reflections"],
+      "viewport": "White masking-paper ground; a huge black headline cut on the logo's diagonal; a real booth photo showing through a diagonal tape window; call button and 3-field quote form on the paper.",
+      "risk": "If the tape cuts are timid it collapses into a generic white page with a red button.",
+      "raised": [
+        {"from": "textiles-weave-drape-fashion-drawcord-transforming-cape", "raise": "One gesture transforms the surface: dragging the tape edge peels every before photo to its after."},
+        {"from": "architecture-inhabitable-space-daylight-section", "raise": "One continuous tape line runs the whole page and rules every alignment."},
+        {"from": "medium-native-crt-arcade-pixel-glow", "raise": "Red is law: it appears only as paint and as the call to act, never as decoration."},
+        {"from": "pop-culture-shelf-anime-command-center", "raise": "Facts at monumental scale: 1997 and $500 set as display numerals."}
+      ],
+      "html": ".impeccable/decision/assigned.html"
+    },
+    {
+      "id": "model-pick",
+      "kind": "pick",
+      "kicker": "IMPECCABLE’S PICK",
+      "label": "The Paint Code Card",
+      "lineage": "OEM paint-code labels and refinish colour-chip cards",
+      "thesis": "Every section is a colour-chip card: MK matches your car from its OEM code.",
+      "palette": ["#ffffff", "#111111", "#d40a0a", "#c9c9c4"],
+      "materials": ["coated chip stock", "printed code labels", "spray-out cards"],
+      "viewport": "A large chip card with the red swatch as the hero field, code-label typography for the headline, phone and quote in the label block.",
+      "risk": "Tidy and familiar; reads as a paint supplier more than a collision shop.",
+      "html": ".impeccable/decision/pick.html"
+    },
+    {
+      "id": "challenger-kiosk",
+      "kind": "challenger",
+      "catalogId": "vernacular-ephemera-socialist-kiosk-print",
+      "label": "Three-Ink Kiosk",
+      "verdict": "competitive",
+      "lineage": "restricted-ink kiosk print with a geometric office mark",
+      "thesis": "Black, red and paper only: services sold like goods in one whole-cell kiosk grid.",
+      "palette": ["#e9e7e1", "#0b0b0b", "#d40a0a"],
+      "materials": ["recycled board", "off-register ink"],
+      "viewport": "A strict grid of service cells, the MK mark as the office emblem, the active cell printed red.",
+      "case": "Holds product clarity (services scan instantly); loses audience identification, Ottawa drivers don't live in this print world.",
+      "risk": "No photographs by rule, which throws away MK's best proof.",
+      "hero": "https://impeccable.style/worlds/cards/vernacular-ephemera-socialist-kiosk-print-hero.webp",
+      "html": ".impeccable/decision/kiosk.html"
+    },
+    {"id": "challenger-cape", "kind": "challenger", "catalogId": "textiles-weave-drape-fashion-drawcord-transforming-cape", "label": "Drawcord Cape", "verdict": "declined", "lineage": "transforming silk cape", "thesis": "One pull turns a flat plane into a shaped volume.", "palette": ["#0b0b0b", "#b8912f", "#4a4d52"], "materials": ["matte silk", "drawcord"], "viewport": "A black semicircle that gathers on pull.", "case": "Loses both axes: fashion world, no link to repair.", "risk": "Pure metaphor.", "kept": "One gesture transforms the surface (the tape peel)."},
+    {"id": "challenger-daylight", "kind": "challenger", "catalogId": "architecture-inhabitable-space-daylight-section", "label": "Daylight Section", "verdict": "declined", "lineage": "architectural daylight section", "thesis": "One traveling beam rules a continuous section.", "palette": ["#f2efe6", "#2a2a2a", "#e0b04a"], "materials": ["limewash", "poche"], "viewport": "A building in section with a sunbeam.", "case": "Loses both axes.", "risk": "Off-subject.", "kept": "One continuous line rules the whole page."},
+    {"id": "challenger-sixpack", "kind": "challenger", "catalogId": "signals-instruments-night-flight-six-pack", "label": "Night Six-Pack", "verdict": "declined", "lineage": "aircraft instrument panel", "thesis": "Six gauges, each owning one truth.", "palette": ["#0a0a0a", "#ffffff", "#5fe08a"], "materials": ["luminous dials"], "viewport": "Six dials on black.", "case": "Loses both axes: dashboards are the rut for car businesses.", "risk": "Costume.", "kept": "Each fact owns one fixed slot."},
+    {"id": "challenger-arcade", "kind": "challenger", "catalogId": "medium-native-crt-arcade-pixel-glow", "label": "CRT Arcade", "verdict": "declined", "lineage": "pixel arcade screen", "thesis": "Palette law: each colour means one thing.", "palette": ["#000000", "#ff3b3b", "#ffd84a"], "materials": ["scanlines", "phosphor"], "viewport": "A pixel playfield.", "case": "Loses both axes: undermines premium.", "risk": "Novelty.", "kept": "Red reserved by law for paint and action."},
+    {"id": "challenger-anime", "kind": "challenger", "catalogId": "pop-culture-shelf-anime-command-center", "label": "Command Wall", "verdict": "declined", "lineage": "90s anime crisis wall", "thesis": "Monumental numerals on black.", "palette": ["#000000", "#ff7a00", "#9cff3a"], "materials": ["phosphor type", "hazard chevrons"], "viewport": "Countdown digits taller than you.", "case": "Loses both axes: alarm for a stressed visitor.", "risk": "Hostile.", "kept": "Key facts at monumental scale."}
+  ],
+  "reroll": {"registers": ["safer", "bolder"]},
+  "buildPath": {"value": "code", "toggle": false},
+  "canon": true,
+  "canonCard": {
+    "kind": "canon",
+    "label": "The category standard",
+    "thesis": "Dark premium auto-shop hero: full-bleed car photo, white headline, red button, services row.",
+    "palette": ["#0b0b0b", "#ffffff", "#d40a0a"],
+    "materials": ["full-bleed photography", "clean grid"],
+    "viewport": "Big photo of a finished car, headline and Get a Quote over it, icon cards below.",
+    "risk": "Indistinguishable from every detailing and collision site by design.",
+    "html": ".impeccable/decision/canon.html"
+  },
+  "steer": true
+}

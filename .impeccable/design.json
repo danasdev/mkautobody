@@ -1,0 +1,444 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-02T04:43:16+00:00",
+  "title": "Design System: MK Auto Body",
+  "extensions": {
+    "colorMeta": {
+      "basecoat-red": {
+        "role": "primary",
+        "displayName": "Basecoat Red",
+        "canonical": "oklch(54.9% 0.222 28.9)",
+        "tonalRamp": [
+          "#1d0101",
+          "#44100c",
+          "#7b150f",
+          "#b6120e",
+          "#de4437",
+          "#ef8172",
+          "#fab6ab",
+          "#ffe1da"
+        ],
+        "cssVar": "--red"
+      },
+      "basecoat-red-deep": {
+        "role": "primary",
+        "displayName": "Basecoat Red Deep",
+        "canonical": "oklch(46.4% 0.187 28.9)",
+        "tonalRamp": [
+          "#1b0302",
+          "#401511",
+          "#73221a",
+          "#aa2d24",
+          "#d25346",
+          "#e4887b",
+          "#f3b9b0",
+          "#ffe4dd"
+        ],
+        "cssVar": "--red-deep"
+      },
+      "booth-black": {
+        "role": "neutral",
+        "displayName": "Booth Black",
+        "canonical": "oklch(15.0% 0.000 89.9)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ],
+        "cssVar": "--ink"
+      },
+      "graphite": {
+        "role": "neutral",
+        "displayName": "Graphite",
+        "canonical": "oklch(35.1% 0.007 106.7)",
+        "tonalRamp": [
+          "#0b0b0a",
+          "#252524",
+          "#424240",
+          "#61615e",
+          "#83837f",
+          "#a5a5a2",
+          "#c9c9c7",
+          "#eeeeed"
+        ],
+        "cssVar": "--ink-2"
+      },
+      "primer-grey": {
+        "role": "neutral",
+        "displayName": "Primer Grey",
+        "canonical": "oklch(52.6% 0.009 106.7)",
+        "tonalRamp": [
+          "#0b0b0a",
+          "#252523",
+          "#42423f",
+          "#62625c",
+          "#83837d",
+          "#a5a5a1",
+          "#c9c9c7",
+          "#eeeeed"
+        ],
+        "cssVar": "--ink-3"
+      },
+      "masking-paper": {
+        "role": "neutral",
+        "displayName": "Masking Paper",
+        "canonical": "oklch(97.0% 0.005 95.1)",
+        "tonalRamp": [
+          "#0b0b0a",
+          "#252524",
+          "#424240",
+          "#62615e",
+          "#83827f",
+          "#a5a5a3",
+          "#c9c9c8",
+          "#efeeed"
+        ],
+        "cssVar": "--paper"
+      },
+      "paper-shade": {
+        "role": "neutral",
+        "displayName": "Paper Shade",
+        "canonical": "oklch(93.9% 0.008 98.9)",
+        "tonalRamp": [
+          "#0b0b0a",
+          "#252523",
+          "#43423f",
+          "#62615d",
+          "#83827e",
+          "#a6a5a2",
+          "#c9c9c7",
+          "#efeeed"
+        ],
+        "cssVar": "--paper-2"
+      },
+      "tape-rule": {
+        "role": "neutral",
+        "displayName": "Tape Rule",
+        "canonical": "oklch(87.2% 0.011 100.8)",
+        "tonalRamp": [
+          "#0b0b0a",
+          "#252523",
+          "#43423e",
+          "#62615b",
+          "#83837c",
+          "#a6a5a0",
+          "#c9c9c6",
+          "#efeeec"
+        ],
+        "cssVar": "--rule"
+      },
+      "booth-black-lift": {
+        "role": "neutral",
+        "displayName": "Booth Black Lift",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ],
+        "note": "Hard-coded #2a2a28 in source (ink button hover, footer hairline); not yet a custom property."
+      },
+      "field-white": {
+        "role": "neutral",
+        "displayName": "Field White",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ],
+        "note": "Literal #fff in source."
+      },
+      "smoke": {
+        "role": "neutral",
+        "displayName": "Smoke",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ],
+        "note": "Hard-coded #cfcfca on the dark band; not yet a custom property."
+      },
+      "ash": {
+        "role": "neutral",
+        "displayName": "Ash",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ],
+        "note": "Hard-coded #a9a9a3 on the dark band; not yet a custom property."
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero headline only."
+      },
+      "numeral": {
+        "displayName": "Numeral",
+        "purpose": "One monumental figure per page ($500)."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section headings."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Row headings in ruled lists."
+      },
+      "lede": {
+        "displayName": "Lede",
+        "purpose": "Opening paragraph of hero and visit band."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running text, max 34-36em."
+      },
+      "button": {
+        "displayName": "Button",
+        "purpose": "Button text at 112% width."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Form labels and caption chips."
+      },
+      "label-caps": {
+        "displayName": "Label Caps",
+        "purpose": "Short functional tags only: Before/After, dark-band column heads."
+      }
+    },
+    "shapes": [
+      {
+        "name": "shear",
+        "value": "48deg",
+        "cssVar": "--shear",
+        "purpose": "The one diagonal: tape ends (10.8px offset on 12px), chamfers, peel edge (strip rotate 42deg from vertical)."
+      },
+      {
+        "name": "radius",
+        "value": "0",
+        "purpose": "All corners square."
+      }
+    ],
+    "shadows": [
+      {
+        "name": "focus-halo",
+        "value": "inset 0 0 0 1.5px #0b0b0b, 0 0 0 3px color-mix(in srgb,#0b0b0b 18%,transparent)",
+        "purpose": "Input focus only; the system has no elevation shadows."
+      },
+      {
+        "name": "error-stroke",
+        "value": "inset 0 0 0 1.5px #d40a0a",
+        "purpose": "Input error state."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(.16,1,.3,1)",
+        "cssVar": "--ease",
+        "purpose": "The single easing for everything."
+      },
+      {
+        "name": "lay",
+        "value": "transform scaleX(0) to 1, 1s, origin left, on first intersection (threshold .6)",
+        "purpose": "Tape strips lay down along their axis once."
+      },
+      {
+        "name": "unmask",
+        "value": "clip-path from zero width, 1.1s, delay .1s; desktop only",
+        "purpose": "Hero plate is unmasked on load."
+      },
+      {
+        "name": "lay-up",
+        "value": "clip-path from bottom-left point, .8s, delay .65s",
+        "purpose": "Red sliver rises after the unmask."
+      },
+      {
+        "name": "state",
+        "value": ".2s background-color/transform; nav underline .35s; gallery scale 1.03 over .9s",
+        "purpose": "User-triggered hover only."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "all authored animation off",
+        "purpose": "prefers-reduced-motion respected."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "xs",
+        "value": "420px"
+      },
+      {
+        "name": "sm",
+        "value": "520px"
+      },
+      {
+        "name": "md",
+        "value": "760px"
+      },
+      {
+        "name": "lg",
+        "value": "900px"
+      },
+      {
+        "name": "xl",
+        "value": "1100px"
+      },
+      {
+        "name": "short-desktop",
+        "value": "(min-width:901px) and (max-height:960px)"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Red Call Button",
+      "kind": "button",
+      "refersTo": "button-red",
+      "description": "Every phone action; the call to act.",
+      "html": "<a class=\"ds-btn-red\" href=\"tel:+16137274347\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"square\" stroke-linejoin=\"miter\" aria-hidden=\"true\"><path d=\"M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2z\"/></svg>Call now</a>",
+      "css": ":root{--paper:#f6f5f1;--paper-2:#ecebe5;--ink:#0b0b0b;--ink-2:#3b3b37;--ink-3:#6b6b65;--rule:#d6d5cd;--red:#d40a0a;--red-deep:#a90606;--ease:cubic-bezier(.16,1,.3,1)} .ds-btn-red{display:inline-flex;align-items:center;justify-content:center;gap:.6em;min-height:56px;padding:0 26px;border:0;border-radius:0;font-family:Archivo,system-ui,sans-serif;font-weight:800;font-size:1rem;line-height:1;font-stretch:112%;letter-spacing:.005em;text-decoration:none;cursor:pointer;color:#fff;transition:background-color .2s var(--ease),transform .2s var(--ease);background:var(--red)} .ds-btn-red:hover{background:var(--red-deep)} .ds-btn-red:active{transform:translateY(1px)} .ds-btn-red:focus-visible{outline:2.5px solid var(--ink);outline-offset:3px}"
+    },
+    {
+      "name": "Ink Submit Button",
+      "kind": "button",
+      "refersTo": "button-ink",
+      "description": "Form submit, paired beside the red call.",
+      "html": "<button class=\"ds-btn-ink\" type=\"button\">Request my estimate <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"square\" stroke-linejoin=\"miter\" aria-hidden=\"true\"><path d=\"M4 12h15M13 6l6 6-6 6\"/></svg></button>",
+      "css": ":root{--paper:#f6f5f1;--paper-2:#ecebe5;--ink:#0b0b0b;--ink-2:#3b3b37;--ink-3:#6b6b65;--rule:#d6d5cd;--red:#d40a0a;--red-deep:#a90606;--ease:cubic-bezier(.16,1,.3,1)} .ds-btn-ink{display:inline-flex;align-items:center;justify-content:center;gap:.6em;min-height:56px;padding:0 26px;border:0;border-radius:0;font-family:Archivo,system-ui,sans-serif;font-weight:800;font-size:1rem;line-height:1;font-stretch:112%;letter-spacing:.005em;text-decoration:none;cursor:pointer;color:#fff;transition:background-color .2s var(--ease),transform .2s var(--ease);background:var(--ink)} .ds-btn-ink:hover{background:#2a2a28} .ds-btn-ink:active{transform:translateY(1px)} .ds-btn-ink:focus-visible{outline:2.5px solid var(--ink);outline-offset:3px}"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input-field",
+      "description": "Square, ink-stroked field on field-white; red on error.",
+      "html": "<div class=\"ds-field\"><label for=\"ds-f\">Phone</label><input id=\"ds-f\" placeholder=\"613 555 0123\"></div><div class=\"ds-field ds-err\"><label for=\"ds-g\">Name</label><input id=\"ds-g\"><span>Add your name so we know who to ask for.</span></div>",
+      "css": ":root{--paper:#f6f5f1;--paper-2:#ecebe5;--ink:#0b0b0b;--ink-2:#3b3b37;--ink-3:#6b6b65;--rule:#d6d5cd;--red:#d40a0a;--red-deep:#a90606;--ease:cubic-bezier(.16,1,.3,1)} .ds-field{display:flex;flex-direction:column;gap:6px;max-width:300px;margin-bottom:12px;font-family:Archivo,system-ui,sans-serif;color:var(--ink)} .ds-field label{font-size:.8125rem;font-weight:700;letter-spacing:.01em} .ds-field input{height:54px;border:1.5px solid var(--ink);border-radius:0;background:#fff;color:var(--ink);padding:0 16px;font:500 1rem Archivo,system-ui,sans-serif;transition:box-shadow .2s} .ds-field input::placeholder{color:#76766f} .ds-field input:focus{outline:none;box-shadow:inset 0 0 0 1.5px var(--ink),0 0 0 3px color-mix(in srgb,var(--ink) 18%,transparent)} .ds-err input{border-color:var(--red);box-shadow:inset 0 0 0 1.5px var(--red)} .ds-err span{font-size:.8125rem;font-weight:600;color:var(--red-deep)}"
+    },
+    {
+      "name": "Header Navigation",
+      "kind": "nav",
+      "description": "Logo, text links with a draw-in ink bar, red call strip.",
+      "html": "<header class=\"ds-hdr\"><a class=\"ds-brand\" href=\"#\"><svg viewBox=\"0 0 1137 558\" aria-hidden=\"true\"><path fill=\"#0b0b0b\" d=\"M12 12h160l166 228L505 12h157v188L520 360V205L345 432h-20L157 205v113L12 475z\"/><path fill=\"#d40a0a\" d=\"M12 545l145-160v160zM520 545V430L895 12h205L865 270l260 275H915L760 382 662 487v58z\"/></svg><span>AUTO BODY</span></a><nav class=\"ds-nav\"><a href=\"#\">Services</a><a href=\"#\">Insurance</a><a href=\"#\">Our work</a></nav><a class=\"ds-call\" href=\"tel:+16137274347\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"square\" stroke-linejoin=\"miter\" aria-hidden=\"true\"><path d=\"M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2z\"/></svg>(613) 727-4347</a></header>",
+      "css": ":root{--paper:#f6f5f1;--paper-2:#ecebe5;--ink:#0b0b0b;--ink-2:#3b3b37;--ink-3:#6b6b65;--rule:#d6d5cd;--red:#d40a0a;--red-deep:#a90606;--ease:cubic-bezier(.16,1,.3,1)} .ds-hdr{display:flex;align-items:center;gap:32px;height:76px;padding:0 24px;background:var(--paper);border-bottom:1px solid var(--rule);font-family:Archivo,system-ui,sans-serif;color:var(--ink)} .ds-brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:inherit} .ds-brand svg{height:30px;width:auto} .ds-brand span{font-stretch:125%;font-weight:800;font-size:.95rem;letter-spacing:.02em} .ds-nav{display:flex;gap:28px;margin-left:auto;font-weight:600;font-size:.95rem} .ds-nav a{color:inherit;text-decoration:none;padding:8px 0;position:relative} .ds-nav a::after{content:\"\";position:absolute;left:0;right:100%;bottom:2px;height:2px;background:var(--ink);transition:right .35s var(--ease)} .ds-nav a:hover::after,.ds-nav a:focus-visible::after{right:0} .ds-nav a:focus-visible{outline:2.5px solid var(--ink);outline-offset:3px} .ds-call{display:inline-flex;align-items:center;gap:.6em;min-height:48px;padding:0 20px;background:var(--red);color:#fff;font-weight:800;font-stretch:112%;text-decoration:none;font-variant-numeric:tabular-nums;transition:background-color .2s var(--ease)} .ds-call:hover{background:var(--red-deep)}"
+    },
+    {
+      "name": "Tape Strip and Headline",
+      "kind": "custom",
+      "refersTo": "tape",
+      "description": "Section opener: 48-degree-ended tape over a 125%/900 headline; lays in along its axis once.",
+      "html": "<div class=\"ds-head\"><span class=\"ds-tape\"></span><h2>Tell us what happened.</h2></div>",
+      "css": ":root{--paper:#f6f5f1;--paper-2:#ecebe5;--ink:#0b0b0b;--ink-2:#3b3b37;--ink-3:#6b6b65;--rule:#d6d5cd;--red:#d40a0a;--red-deep:#a90606;--ease:cubic-bezier(.16,1,.3,1)} .ds-head{font-family:Archivo,system-ui,sans-serif;color:var(--ink);background:var(--paper);padding:24px} .ds-tape{display:block;width:min(220px,40%);height:12px;margin-bottom:28px;background:var(--ink);clip-path:polygon(0 0,100% 0,calc(100% - 10.8px) 100%,0 100%);transform-origin:left center;animation:ds-lay 1s var(--ease) both} .ds-head h2{margin:0;font-stretch:125%;font-weight:900;font-size:clamp(2.25rem,4.6vw,4.25rem);line-height:.92;letter-spacing:-.035em;text-wrap:balance} .ds-head:hover .ds-tape{animation:none} @keyframes ds-lay{from{transform:scaleX(0)}} @media (prefers-reduced-motion:reduce){.ds-tape{animation:none}}"
+    },
+    {
+      "name": "Ruled List",
+      "kind": "card",
+      "description": "The system's alternative to cards: 1.5px ink opener, 1px hairline rows.",
+      "html": "<ul class=\"ds-rules\"><li><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"square\" stroke-linejoin=\"miter\" aria-hidden=\"true\"><path d=\"M4 12.5l5 5L20 6.5\"/></svg><span><b>The same warranty</b> as your insurer’s preferred shop.</span></li><li><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"square\" stroke-linejoin=\"miter\" aria-hidden=\"true\"><path d=\"M4 12.5l5 5L20 6.5\"/></svg><span><b>Your deductible covered</b> up to $500.</span></li><li><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"square\" stroke-linejoin=\"miter\" aria-hidden=\"true\"><path d=\"M4 12.5l5 5L20 6.5\"/></svg><span><b>Your rental booked</b>, with pickup at our location.</span></li></ul>",
+      "css": ":root{--paper:#f6f5f1;--paper-2:#ecebe5;--ink:#0b0b0b;--ink-2:#3b3b37;--ink-3:#6b6b65;--rule:#d6d5cd;--red:#d40a0a;--red-deep:#a90606;--ease:cubic-bezier(.16,1,.3,1)} .ds-rules{list-style:none;margin:0;padding:0;border-top:1.5px solid var(--ink);font-family:Archivo,system-ui,sans-serif;color:var(--ink);background:var(--paper);max-width:520px} .ds-rules li{display:grid;grid-template-columns:28px 1fr;gap:16px;padding:18px 0;border-bottom:1px solid var(--rule);font-size:1.0625rem;line-height:1.55} .ds-rules svg{margin-top:3px} .ds-rules b{font-weight:700}"
+    },
+    {
+      "name": "Chamfered Plate",
+      "kind": "custom",
+      "description": "Photo with its lower-left corner cut at 48 degrees and a basecoat-red sliver beneath the cut.",
+      "html": "<figure class=\"ds-plate\"><div class=\"ds-ph\"></div><span class=\"ds-sliver\"></span></figure>",
+      "css": ":root{--paper:#f6f5f1;--paper-2:#ecebe5;--ink:#0b0b0b;--ink-2:#3b3b37;--ink-3:#6b6b65;--rule:#d6d5cd;--red:#d40a0a;--red-deep:#a90606;--ease:cubic-bezier(.16,1,.3,1)} .ds-plate{position:relative;margin:0;width:280px} .ds-ph{aspect-ratio:1/1;background:linear-gradient(135deg,#3b3b37,#0b0b0b);clip-path:polygon(0 0,100% 0,100% 100%,30% 100%,0 66.7%)} .ds-sliver{position:absolute;inset:0;background:var(--red);clip-path:polygon(0 calc(66.7% + 24px),calc(30% - 22px) 100%,0 100%)}"
+    },
+    {
+      "name": "Peel Viewer",
+      "kind": "custom",
+      "refersTo": "peel-grip",
+      "description": "Signature before/after viewer; the boundary is a 48-degree tape strip with a square ink grip.",
+      "html": "<div class=\"ds-peel\"><div class=\"ds-before\"></div><div class=\"ds-after\"></div><span class=\"ds-strip\"></span><span class=\"ds-grip\"><svg width=\"26\" height=\"26\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"square\" stroke-linejoin=\"miter\" aria-hidden=\"true\"><path d=\"M9 7l-5 5 5 5M15 7l5 5-5 5\"/></svg></span><span class=\"ds-tag ds-b\">Before</span><span class=\"ds-tag ds-a\">After</span></div>",
+      "css": ":root{--paper:#f6f5f1;--paper-2:#ecebe5;--ink:#0b0b0b;--ink-2:#3b3b37;--ink-3:#6b6b65;--rule:#d6d5cd;--red:#d40a0a;--red-deep:#a90606;--ease:cubic-bezier(.16,1,.3,1)} .ds-peel{position:relative;width:480px;max-width:100%;aspect-ratio:2/1;overflow:hidden;background:#1a1a1a;cursor:ew-resize;--p:50%;font-family:Archivo,system-ui,sans-serif;transition:--p .4s} .ds-before,.ds-after{position:absolute;inset:0} .ds-before{background:repeating-linear-gradient(48deg,#6b6b65 0 14px,#3b3b37 14px 28px)} .ds-after{background:linear-gradient(120deg,#a90606,#d40a0a 60%,#ef8172);clip-path:polygon(calc(var(--p) + 22.5%) 0,100% 0,100% 100%,calc(var(--p) - 22.5%) 100%)} .ds-strip{position:absolute;top:50%;left:var(--p);width:16px;height:240%;background:var(--ink);transform:translate(-50%,-50%) rotate(42deg)} .ds-grip{position:absolute;top:50%;left:var(--p);transform:translate(-50%,-50%);width:56px;height:56px;background:var(--ink);color:#fff;display:grid;place-items:center} .ds-peel:hover .ds-strip,.ds-peel:hover .ds-grip{left:62%} .ds-peel:hover .ds-after{clip-path:polygon(calc(62% + 22.5%) 0,100% 0,100% 100%,calc(62% - 22.5%) 100%)} .ds-tag{position:absolute;top:16px;padding:7px 12px;font-size:.8125rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase} .ds-b{left:16px;background:var(--paper);color:var(--ink)} .ds-a{right:16px;background:var(--red);color:#fff}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Masked Booth",
+    "overview": "The site is a car inside MK's paint booth. The ground is masking paper, the structure is black tape, and the only colour is the basecoat red that ends up on the car. Every cut edge takes the 48° shear from the MK wordmark: tape ends, photo chamfers, and the diagonal you drag in the before/after viewer. Corners are square or chamfered at 48°, never rounded.\n\nDensity is editorial rather than dashboard. Sections sit on a wide vertical rhythm, content runs along hairline and 1.5px ink rules instead of in boxes, and the type does the heavy lifting: Archivo pushed to 125% width and weight 900 so headlines carry the wordmark's wide, heavy cut. Real shop photographs carry the proof. Decoration is limited to what a body shop actually uses: paper, tape, paint.\n\nMotion follows the craft. On first view a tape strip lays down along its own axis and the hero photo is unmasked; after that nothing moves unless the visitor moves it.",
+    "keyCharacteristics": [
+      "Masking-paper ground, booth-black type and tape, basecoat red reserved for paint and the call.",
+      "Archivo variable: 125% width / 900 for display, 112% / 800 for titles and buttons, 100% / 400 for text.",
+      "One angle, 48°, for every cut edge; square corners everywhere else.",
+      "Flat surfaces; depth comes from the ink/paper contrast and the dark visit band, not shadows.",
+      "Hairline-ruled lists in place of cards.",
+      "One authored motion moment: tape lays in, hero unmasks."
+    ],
+    "rules": [
+      {
+        "name": "The Red Is Paint Rule",
+        "body": "Basecoat red only appears where paint or action would: the call to act, the logo's K, the finished \"After\" state, the red cut under a chamfer, and field errors. It never fills a section background, never colours a heading, and never decorates a neutral list.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two-Weight Rule Line",
+        "body": "Structure uses exactly two rules: a 1.5px booth-black rule to open a block and a 1px tape-rule hairline between its rows.",
+        "section": "colors"
+      },
+      {
+        "name": "The Wordmark Width Rule",
+        "body": "Anything display-sized is set at 125% width and 900 weight. Never set a headline at normal width; that is how it stops sounding like MK.",
+        "section": "typography"
+      },
+      {
+        "name": "The Middle Width Rule",
+        "body": "Buttons, titles, the service run and finish names sit at 110–112% width, between display and text. Keep it there.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Booth Rule",
+        "body": "Surfaces never lift. Distinguish layers by ink against paper, never by shadow.",
+        "section": "elevation"
+      },
+      {
+        "name": "The 48° Rule",
+        "body": "There is one angle. If an edge is diagonal, it is 48° from horizontal; if it is not diagonal, it is square.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "**Do** set every headline at Archivo 125% width, weight 900, line-height 0.92, tracking -0.035em.",
+      "**Do** cut diagonal edges at 48° and keep every other corner square (0).",
+      "**Do** reserve basecoat red (#d40a0a) for calls to act, the logo's K, the \"After\"/finished state, the sliver under a chamfer, and field errors.",
+      "**Do** open blocks with a 1.5px booth-black rule and divide rows with 1px tape-rule hairlines.",
+      "**Do** put a tape strip above a section headline, and let it lay in once along its axis.",
+      "**Do** keep every section one tap from calling: a red call button or the large phone number.",
+      "**Do** use real shop photographs; caption them with a masking-paper chip."
+    ],
+    "donts": [
+      "**Don't** round corners or use pill shapes on any surface, control or photo; the only curves are inside the stroked icons.",
+      "**Don't** use diagonals at any angle other than 48°.",
+      "**Don't** add shadows to lift surfaces; the system is flat.",
+      "**Don't** put content in bordered or shadowed cards; use ruled lists.",
+      "**Don't** use red for headings, section grounds, or decoration with no paint or action meaning.",
+      "**Don't** animate anything on its own beyond the tape lay-in and hero unmask.",
+      "**Don't** set display type at normal width or below weight 900."
+    ]
+  }
+}
